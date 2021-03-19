@@ -1,0 +1,20 @@
+{
+  "name": "walmart-backend",
+  "version": "1.0.0",
+  "description": "desafio",
+  "main": "index.js",
+  "repository": "https://github.com/yogparra/desafio-walmart-backend.git",
+  "author": "Guillermo <gmo.parra@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1"
+  }
+}
