@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  api:
+      container_name: api
+      build: .
+      ports:
+        - "3019:3001"
+      links:
+        - mongodb
+      volumes:
+        - .:/src
+
+  mongodb:
+      container_name: database
+      image: mongo:3.6.8
+      ports:
+        - 27017:27017
+      volumes:
+        - ./database:/database
+      command:
+        /database/import.sh

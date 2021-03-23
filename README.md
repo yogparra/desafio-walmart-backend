@@ -23,22 +23,21 @@ cd desafio-walmart-frontend
 yarn install
 ```
 
+# Docker/Docker-conpose
+```
+docker-compose build
+docker-compose up
+```
+
 # Deploy
+```
 Proximamente...
 ```
-```
-
-# Test
-```
-yarn test
-yarn test --watchAll
-```
-
 
 # Imagenes
 
 <p align="center">
-  <img src="https://github.com/yogparra/desafio-walmart-backend/blob/dev/img/api_palindrome_no.png?raw=true" width="350" title="api_palindrome_si">
+  <img src="https://github.com/yogparra/desafio-walmart-backend/blob/dev/img/api_palindrome_si.png?raw=true" width="350" title="api_palindrome_si">
   <img src="https://github.com/yogparra/desafio-walmart-backend/blob/dev/img/api_palindrome_no.png?raw=true" width="350" title="api_palindrome_no">
   <img src="https://github.com/yogparra/desafio-walmart-backend/blob/dev/img/api_postman_palindrome_si.png?raw=true" width="350" title="api_postman_palindrome_si">
 </p>
